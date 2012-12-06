@@ -65,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69DA6AC216713B6400BA3495 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		69F17F8F1671156E00F51B39 /* AutoXMLCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoXMLCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F17F921671156E00F51B39 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		69F17F951671156E00F51B39 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -134,6 +135,7 @@
 		69F17F831671156E00F51B39 = {
 			isa = PBXGroup;
 			children = (
+				69DA6AC216713B6400BA3495 /* README.md */,
 				69F180C316711BE900F51B39 /* MyPhoneApp.xcodeproj */,
 				69F18080167119DA00F51B39 /* MyMacApp.xcodeproj */,
 				69F17F981671156E00F51B39 /* AutoXMLCommon */,
