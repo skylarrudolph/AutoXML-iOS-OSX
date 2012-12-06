@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69F17F931671156E00F51B39 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F17F921671156E00F51B39 /* Cocoa.framework */; };
+		69F17F9D1671156E00F51B39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69F17F9B1671156E00F51B39 /* InfoPlist.strings */; };
+		69F17FA91671156E00F51B39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F17FA81671156E00F51B39 /* SenTestingKit.framework */; };
+		69F17FAA1671156E00F51B39 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F17F921671156E00F51B39 /* Cocoa.framework */; };
+		69F17FAD1671156E00F51B39 /* AutoXMLCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F17F8F1671156E00F51B39 /* AutoXMLCommon.framework */; };
+		69F17FC51671163C00F51B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F17FC41671163C00F51B39 /* Foundation.framework */; };
+		69F17FD21671163C00F51B39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F17FA81671156E00F51B39 /* SenTestingKit.framework */; };
+		69F17FD41671163C00F51B39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F17FD31671163C00F51B39 /* UIKit.framework */; };
+		69F17FD51671163C00F51B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F17FC41671163C00F51B39 /* Foundation.framework */; };
+		69F17FD81671163C00F51B39 /* libAutoXMLCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F17FC31671163C00F51B39 /* libAutoXMLCommon.a */; };
+		69F17FE81671174500F51B39 /* AutoXMLCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F17F9F1671156E00F51B39 /* AutoXMLCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F17FE91671174A00F51B39 /* AutoXMLCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F17F9F1671156E00F51B39 /* AutoXMLCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F180D8167121D700F51B39 /* AutoXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F180D2167121D700F51B39 /* AutoXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F180D9167121D700F51B39 /* AutoXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F180D2167121D700F51B39 /* AutoXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F180DA167121D700F51B39 /* AutoXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F180D3167121D700F51B39 /* AutoXMLParser.m */; };
+		69F180DB167121D700F51B39 /* AutoXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F180D3167121D700F51B39 /* AutoXMLParser.m */; };
+		69F180DC167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F180D4167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F180DD167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F180D4167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F180DE167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F180D5167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.m */; };
+		69F180DF167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F180D5167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.m */; };
+		69F180E0167121D700F51B39 /* NSString+StringManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F180D6167121D700F51B39 /* NSString+StringManipulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F180E1167121D700F51B39 /* NSString+StringManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F180D6167121D700F51B39 /* NSString+StringManipulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F180E2167121D700F51B39 /* NSString+StringManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F180D7167121D700F51B39 /* NSString+StringManipulation.m */; };
+		69F180E3167121D700F51B39 /* NSString+StringManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F180D7167121D700F51B39 /* NSString+StringManipulation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69F17FAB1671156E00F51B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F17F851671156E00F51B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F17F8E1671156E00F51B39;
+			remoteInfo = AutoXMLCommon;
+		};
+		69F17FD61671163C00F51B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F17F851671156E00F51B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F17FC21671163C00F51B39;
+			remoteInfo = AutoXMLCommon;
+		};
+		69F18084167119DB00F51B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F18080167119DA00F51B39 /* MyMacApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 69F1805F167119DA00F51B39;
+			remoteInfo = MyMacApp;
+		};
+		69F180C716711BEA00F51B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F180C316711BE900F51B39 /* MyPhoneApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 69F1809616711BE900F51B39;
+			remoteInfo = MyPhoneApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69F17F8F1671156E00F51B39 /* AutoXMLCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoXMLCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F17F921671156E00F51B39 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		69F17F951671156E00F51B39 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		69F17F961671156E00F51B39 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		69F17F971671156E00F51B39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69F17F9A1671156E00F51B39 /* AutoXMLCommon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoXMLCommon-Info.plist"; sourceTree = "<group>"; };
+		69F17F9C1671156E00F51B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69F17F9E1671156E00F51B39 /* AutoXMLCommon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoXMLCommon-Prefix.pch"; sourceTree = "<group>"; };
+		69F17F9F1671156E00F51B39 /* AutoXMLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoXMLCommon.h; sourceTree = "<group>"; };
+		69F17FA71671156E00F51B39 /* AutoXMLCommonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoXMLCommonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F17FA81671156E00F51B39 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		69F17FC31671163C00F51B39 /* libAutoXMLCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAutoXMLCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F17FC41671163C00F51B39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69F17FD11671163C00F51B39 /* AutoXMLCommonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoXMLCommonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F17FD31671163C00F51B39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		69F18080167119DA00F51B39 /* MyMacApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyMacApp.xcodeproj; path = MyMacApp/MyMacApp.xcodeproj; sourceTree = "<group>"; };
+		69F180C316711BE900F51B39 /* MyPhoneApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyPhoneApp.xcodeproj; path = MyPhoneApp/MyPhoneApp.xcodeproj; sourceTree = "<group>"; };
+		69F180D2167121D700F51B39 /* AutoXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoXMLParser.h; sourceTree = "<group>"; };
+		69F180D3167121D700F51B39 /* AutoXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoXMLParser.m; sourceTree = "<group>"; };
+		69F180D4167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+DictionaryManipulation.h"; sourceTree = "<group>"; };
+		69F180D5167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+DictionaryManipulation.m"; sourceTree = "<group>"; };
+		69F180D6167121D700F51B39 /* NSString+StringManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringManipulation.h"; sourceTree = "<group>"; };
+		69F180D7167121D700F51B39 /* NSString+StringManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringManipulation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69F17F8B1671156E00F51B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F17F931671156E00F51B39 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F17FA31671156E00F51B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F17FA91671156E00F51B39 /* SenTestingKit.framework in Frameworks */,
+				69F17FAA1671156E00F51B39 /* Cocoa.framework in Frameworks */,
+				69F17FAD1671156E00F51B39 /* AutoXMLCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F17FC01671163C00F51B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F17FC51671163C00F51B39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F17FCD1671163C00F51B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F17FD21671163C00F51B39 /* SenTestingKit.framework in Frameworks */,
+				69F17FD41671163C00F51B39 /* UIKit.framework in Frameworks */,
+				69F17FD51671163C00F51B39 /* Foundation.framework in Frameworks */,
+				69F17FD81671163C00F51B39 /* libAutoXMLCommon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69F17F831671156E00F51B39 = {
+			isa = PBXGroup;
+			children = (
+				69F180C316711BE900F51B39 /* MyPhoneApp.xcodeproj */,
+				69F18080167119DA00F51B39 /* MyMacApp.xcodeproj */,
+				69F17F981671156E00F51B39 /* AutoXMLCommon */,
+				69F17F911671156E00F51B39 /* Frameworks */,
+				69F17F901671156E00F51B39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69F17F901671156E00F51B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69F17F8F1671156E00F51B39 /* AutoXMLCommon.framework */,
+				69F17FA71671156E00F51B39 /* AutoXMLCommonTests.octest */,
+				69F17FC31671163C00F51B39 /* libAutoXMLCommon.a */,
+				69F17FD11671163C00F51B39 /* AutoXMLCommonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69F17F911671156E00F51B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69F17F921671156E00F51B39 /* Cocoa.framework */,
+				69F17FA81671156E00F51B39 /* SenTestingKit.framework */,
+				69F17FC41671163C00F51B39 /* Foundation.framework */,
+				69F17FD31671163C00F51B39 /* UIKit.framework */,
+				69F17F941671156E00F51B39 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69F17F941671156E00F51B39 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69F17F951671156E00F51B39 /* AppKit.framework */,
+				69F17F961671156E00F51B39 /* CoreData.framework */,
+				69F17F971671156E00F51B39 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		69F17F981671156E00F51B39 /* AutoXMLCommon */ = {
+			isa = PBXGroup;
+			children = (
+				69F180D2167121D700F51B39 /* AutoXMLParser.h */,
+				69F180D3167121D700F51B39 /* AutoXMLParser.m */,
+				69F180D4167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.h */,
+				69F180D5167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.m */,
+				69F180D6167121D700F51B39 /* NSString+StringManipulation.h */,
+				69F180D7167121D700F51B39 /* NSString+StringManipulation.m */,
+				69F17F9F1671156E00F51B39 /* AutoXMLCommon.h */,
+				69F17F991671156E00F51B39 /* Supporting Files */,
+			);
+			path = AutoXMLCommon;
+			sourceTree = "<group>";
+		};
+		69F17F991671156E00F51B39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69F17F9A1671156E00F51B39 /* AutoXMLCommon-Info.plist */,
+				69F17F9B1671156E00F51B39 /* InfoPlist.strings */,
+				69F17F9E1671156E00F51B39 /* AutoXMLCommon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69F18081167119DA00F51B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69F18085167119DB00F51B39 /* MyMacApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69F180C416711BE900F51B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69F180C816711BEA00F51B39 /* MyPhoneApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69F17F8C1671156E00F51B39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F17FE81671174500F51B39 /* AutoXMLCommon.h in Headers */,
+				69F180D8167121D700F51B39 /* AutoXMLParser.h in Headers */,
+				69F180DC167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.h in Headers */,
+				69F180E0167121D700F51B39 /* NSString+StringManipulation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F17FC11671163C00F51B39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F17FE91671174A00F51B39 /* AutoXMLCommon.h in Headers */,
+				69F180D9167121D700F51B39 /* AutoXMLParser.h in Headers */,
+				69F180DD167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.h in Headers */,
+				69F180E1167121D700F51B39 /* NSString+StringManipulation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		69F17F8E1671156E00F51B39 /* AutoXMLCommon.framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F17FB91671156E00F51B39 /* Build configuration list for PBXNativeTarget "AutoXMLCommon.framework" */;
+			buildPhases = (
+				69F17F8A1671156E00F51B39 /* Sources */,
+				69F17F8B1671156E00F51B39 /* Frameworks */,
+				69F17F8C1671156E00F51B39 /* Headers */,
+				69F17F8D1671156E00F51B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoXMLCommon.framework;
+			productName = AutoXMLCommon;
+			productReference = 69F17F8F1671156E00F51B39 /* AutoXMLCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69F17FA61671156E00F51B39 /* AutoXMLCommonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F17FBC1671156E00F51B39 /* Build configuration list for PBXNativeTarget "AutoXMLCommonTests" */;
+			buildPhases = (
+				69F17FA21671156E00F51B39 /* Sources */,
+				69F17FA31671156E00F51B39 /* Frameworks */,
+				69F17FA41671156E00F51B39 /* Resources */,
+				69F17FA51671156E00F51B39 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F17FAC1671156E00F51B39 /* PBXTargetDependency */,
+			);
+			name = AutoXMLCommonTests;
+			productName = AutoXMLCommonTests;
+			productReference = 69F17FA71671156E00F51B39 /* AutoXMLCommonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		69F17FC21671163C00F51B39 /* libAutoXML.a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F17FE21671163C00F51B39 /* Build configuration list for PBXNativeTarget "libAutoXML.a" */;
+			buildPhases = (
+				69F17FBF1671163C00F51B39 /* Sources */,
+				69F17FC01671163C00F51B39 /* Frameworks */,
+				69F17FC11671163C00F51B39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libAutoXML.a;
+			productName = AutoXMLCommon;
+			productReference = 69F17FC31671163C00F51B39 /* libAutoXMLCommon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69F17FD01671163C00F51B39 /* AutoXMLCommonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F17FE51671163C00F51B39 /* Build configuration list for PBXNativeTarget "AutoXMLCommonTests" */;
+			buildPhases = (
+				69F17FCC1671163C00F51B39 /* Sources */,
+				69F17FCD1671163C00F51B39 /* Frameworks */,
+				69F17FCE1671163C00F51B39 /* Resources */,
+				69F17FCF1671163C00F51B39 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F17FD71671163C00F51B39 /* PBXTargetDependency */,
+			);
+			name = AutoXMLCommonTests;
+			productName = AutoXMLCommonTests;
+			productReference = 69F17FD11671163C00F51B39 /* AutoXMLCommonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69F17F851671156E00F51B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Temple;
+			};
+			buildConfigurationList = 69F17F881671156E00F51B39 /* Build configuration list for PBXProject "AutoXMLCommon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69F17F831671156E00F51B39;
+			productRefGroup = 69F17F901671156E00F51B39 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 69F18081167119DA00F51B39 /* Products */;
+					ProjectRef = 69F18080167119DA00F51B39 /* MyMacApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 69F180C416711BE900F51B39 /* Products */;
+					ProjectRef = 69F180C316711BE900F51B39 /* MyPhoneApp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				69F17F8E1671156E00F51B39 /* AutoXMLCommon.framework */,
+				69F17FA61671156E00F51B39 /* AutoXMLCommonTests */,
+				69F17FC21671163C00F51B39 /* libAutoXML.a */,
+				69F17FD01671163C00F51B39 /* AutoXMLCommonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		69F18085167119DB00F51B39 /* MyMacApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MyMacApp.app;
+			remoteRef = 69F18084167119DB00F51B39 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		69F180C816711BEA00F51B39 /* MyPhoneApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MyPhoneApp.app;
+			remoteRef = 69F180C716711BEA00F51B39 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69F17F8D1671156E00F51B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F17F9D1671156E00F51B39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F17FA41671156E00F51B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F17FCE1671163C00F51B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69F17FA51671156E00F51B39 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		69F17FCF1671163C00F51B39 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69F17F8A1671156E00F51B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F180DA167121D700F51B39 /* AutoXMLParser.m in Sources */,
+				69F180DE167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.m in Sources */,
+				69F180E2167121D700F51B39 /* NSString+StringManipulation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F17FA21671156E00F51B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F17FBF1671163C00F51B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F180DB167121D700F51B39 /* AutoXMLParser.m in Sources */,
+				69F180DF167121D700F51B39 /* NSMutableDictionary+DictionaryManipulation.m in Sources */,
+				69F180E3167121D700F51B39 /* NSString+StringManipulation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F17FCC1671163C00F51B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69F17FAC1671156E00F51B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F17F8E1671156E00F51B39 /* AutoXMLCommon.framework */;
+			targetProxy = 69F17FAB1671156E00F51B39 /* PBXContainerItemProxy */;
+		};
+		69F17FD71671163C00F51B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F17FC21671163C00F51B39 /* libAutoXML.a */;
+			targetProxy = 69F17FD61671163C00F51B39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69F17F9B1671156E00F51B39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F17F9C1671156E00F51B39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69F17FB71671156E00F51B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		69F17FB81671156E00F51B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		69F17FBA1671156E00F51B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoXMLCommon/AutoXMLCommon-Prefix.pch";
+				INFOPLIST_FILE = "AutoXMLCommon/AutoXMLCommon-Info.plist";
+				PRODUCT_NAME = AutoXMLCommon;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		69F17FBB1671156E00F51B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoXMLCommon/AutoXMLCommon-Prefix.pch";
+				INFOPLIST_FILE = "AutoXMLCommon/AutoXMLCommon-Info.plist";
+				PRODUCT_NAME = AutoXMLCommon;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		69F17FBD1671156E00F51B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoXMLCommon/AutoXMLCommon-Prefix.pch";
+				INFOPLIST_FILE = "AutoXMLCommonTests/AutoXMLCommonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		69F17FBE1671156E00F51B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoXMLCommon/AutoXMLCommon-Prefix.pch";
+				INFOPLIST_FILE = "AutoXMLCommonTests/AutoXMLCommonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		69F17FE31671163C00F51B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/AutoXMLCommon.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoXMLCommon/AutoXMLCommon-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = AutoXMLCommon;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		69F17FE41671163C00F51B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/AutoXMLCommon.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoXMLCommon/AutoXMLCommon-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = AutoXMLCommon;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69F17FE61671163C00F51B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoXMLCommon/AutoXMLCommon-Prefix.pch";
+				INFOPLIST_FILE = "AutoXMLCommonTests/AutoXMLCommonTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		69F17FE71671163C00F51B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoXMLCommon/AutoXMLCommon-Prefix.pch";
+				INFOPLIST_FILE = "AutoXMLCommonTests/AutoXMLCommonTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69F17F881671156E00F51B39 /* Build configuration list for PBXProject "AutoXMLCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F17FB71671156E00F51B39 /* Debug */,
+				69F17FB81671156E00F51B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F17FB91671156E00F51B39 /* Build configuration list for PBXNativeTarget "AutoXMLCommon.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F17FBA1671156E00F51B39 /* Debug */,
+				69F17FBB1671156E00F51B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F17FBC1671156E00F51B39 /* Build configuration list for PBXNativeTarget "AutoXMLCommonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F17FBD1671156E00F51B39 /* Debug */,
+				69F17FBE1671156E00F51B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F17FE21671163C00F51B39 /* Build configuration list for PBXNativeTarget "libAutoXML.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F17FE31671163C00F51B39 /* Debug */,
+				69F17FE41671163C00F51B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F17FE51671163C00F51B39 /* Build configuration list for PBXNativeTarget "AutoXMLCommonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F17FE61671163C00F51B39 /* Debug */,
+				69F17FE71671163C00F51B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69F17F851671156E00F51B39 /* Project object */;
+}
